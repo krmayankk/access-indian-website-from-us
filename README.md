@@ -19,13 +19,13 @@ While there might be easier solutions to access Indian websites from USA. This i
    - `sudo apt install google-chrome-stable -y`
  - Configure VNC
    - `vncserver :1`
-   - # Set password when prompted
+   -  Set password when prompted
    - `vncserver -kill :1`
    - `echo "startxfce4 &" > ~/.vnc/xstartup`
    - `chmod +x ~/.vnc/xstartup`
    - `vncserver :1`
  - Connect to VNC Server from Ubuntu
-   - # Install VNC viewer on your Ubuntu laptop
+   - Install VNC viewer on your Ubuntu laptop
    - `sudo apt install tigervnc-viewer -y`
    - `# Connect to your droplet`
    - `vncviewer your-droplet-ip:5901`
